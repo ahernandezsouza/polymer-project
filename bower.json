@@ -1,0 +1,23 @@
+{
+  "name": "polymer-project",
+  "authors": [
+    "Antonio Hernandez Souza <ahernandezsouza@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.1",
+    "iron-elements": "polymerelements/iron-elements#^1.0.10",
+    "paper-elements": "polymerelements/paper-elements#^1.0.7",
+    "google-web-components": "googlewebcomponents/google-web-components#^1.1.0"
+  }
+}
