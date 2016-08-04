@@ -1,0 +1,30 @@
+<dom-module id="stretch-flags">
+
+    <template>
+        <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+        <paper-toolbar><div>{{ country_id }}</div></paper-toolbar>
+        <div id="container">
+            <img id="flag" src="{{ country_flag }}">
+            <p>{{ country_name }}</p>
+        </div>
+    </template>
+    <script>
+        Polymer({
+            is: "stretch-flag",
+            properties: {
+                country_name: {
+                    type: String,
+                    value: "United Arab Emirates"
+                },
+                country_id: {
+                    type: String,
+                    value: "ae"
+                },
+                country_flag: {
+                    type: String,
+                    value: "bower_components/country-flags/png250px/ae.png"
+                }
+            }
+        });
+    </script>
+</dom-module>
